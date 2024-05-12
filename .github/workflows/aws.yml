@@ -32,7 +32,7 @@ on:
 
 env:
   AWS_REGION: us-east-1                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: m7r0u4a6/ramukaka           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: ramukaka           # set this to your Amazon ECR repository name
   ECS_SERVICE: user-management-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: DevCluster2                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: user-management-app-task-def # set this to the path to your Amazon ECS task definition
